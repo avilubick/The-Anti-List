@@ -8,7 +8,7 @@ def find(x,position):
         if atval == True:curvar = f"{curvar}{i}"
         if i == "*" and curvar != "*":atval = False
     if curvar=="":curvar="None" #if not found
-    return curvar.replace("*","") #get rid of exes "*"
+    return curvar.replace("*","") #get rid of exess "*"
 
 
 
